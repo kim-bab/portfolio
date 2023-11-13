@@ -132,12 +132,15 @@ body {
 @keyframes memo-action {
   0% {
     transform: rotate(3deg);
+    transform-origin: 0% 50%;
   }
   50% {
     transform: rotate(-3deg);
+    transform-origin: 0% 50%;
   }
   100% {
     transform: rotate(3deg);
+    transform-origin: 0% 50%;
   }
 }
 .main-wrap .start-main .main-content .title {
@@ -442,7 +445,7 @@ body {
   width: 100%;
   height: 100%;
   -webkit-backdrop-filter: blur(1px);
-          backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
   background: rgba(0, 0, 0, 0.8);
   top: 50%;
   left: 50%;
@@ -551,7 +554,7 @@ body {
   width: 100%;
   height: 100%;
   -webkit-backdrop-filter: blur(1px);
-          backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
   background: rgba(0, 0, 0, 0.8);
   top: 50%;
   left: 50%;
@@ -595,7 +598,7 @@ body {
 }
 #section03 .section03-container .section03-contents .section-items .effect-common-img img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -810,7 +813,9 @@ body {
   .intro-inner .clip-obj {
     display: none;
   }
-  .inner-section02-container, .section03-contents, .section04-items {
+  .inner-section02-container,
+  .section03-contents,
+  .section04-items {
     display: flex;
     flex-direction: column;
   }
@@ -830,20 +835,23 @@ body {
   #section02 {
     padding-top: 100px;
   }
-  .section02-desc, .section03-desc {
+  .section02-desc,
+  .section03-desc {
     font-size: 2.8rem;
     width: 80%;
     word-break: keep-all;
     margin: 0 auto;
   }
-  .section02-desc h1, .section03-desc h1 {
+  .section02-desc h1,
+  .section03-desc h1 {
     text-align: center;
     font-family: "Amiri", serif;
     color: rgb(98, 80, 57);
     text-transform: uppercase;
     font-weight: 100;
   }
-  .section02-desc p, .section03-desc p {
+  .section02-desc p,
+  .section03-desc p {
     text-align: center;
     padding-top: 25px;
     margin: 0 auto;
@@ -853,7 +861,8 @@ body {
     word-break: keep-all;
     font-size: 0.9rem;
   }
-  .section02-container, .section03-container {
+  .section02-container,
+  .section03-container {
     width: 80%;
   }
   .section-items {
@@ -997,7 +1006,9 @@ body {
   .intro-right-title {
     font-size: 2.8rem;
   }
-  .inner-section02-container, .section03-contents, .section04-items {
+  .inner-section02-container,
+  .section03-contents,
+  .section04-items {
     max-width: 1250px;
   }
   .section02-contents::after {
@@ -1007,17 +1018,20 @@ body {
     padding-top: 150px;
     padding-bottom: 150px;
   }
-  .section02-desc, .section03-desc {
+  .section02-desc,
+  .section03-desc {
     font-size: 3.7rem;
   }
-  .section02-desc h1, .section03-desc h1 {
+  .section02-desc h1,
+  .section03-desc h1 {
     text-align: center;
     font-family: "Amiri", serif;
     color: rgb(98, 80, 57);
     text-transform: uppercase;
     font-weight: 100;
   }
-  .section02-desc p, .section03-desc p {
+  .section02-desc p,
+  .section03-desc p {
     text-align: center;
     padding-top: 25px;
     margin: 0 auto;
@@ -1027,7 +1041,8 @@ body {
     word-break: keep-all;
     font-size: 0.9rem;
   }
-  .section02-container, .section03-container {
+  .section02-container,
+  .section03-container {
     width: 90%;
   }
   #section03 {
@@ -1076,9 +1091,6 @@ body {
     right: 0;
     height: 510px;
     width: 680px;
-  }
-  .inner-intro-right {
-    top: 25%;
   }
   .inner-intro-right p {
     font-size: 0.95rem;
